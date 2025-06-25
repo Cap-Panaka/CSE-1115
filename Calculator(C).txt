@@ -8,21 +8,21 @@ int main(){
     float x,y,add,sub,multi,divi;
     printf("-------Calculator.exe---------\n");
     printf("Enter the first number(x): ");
-    scanf("%f",&x);
+    scanf("%g",&x);
     printf("Enter the second number(y): ");
-    scanf("%f",&y);
+    scanf("%g",&y);
     
     add=summation(x,y);
-    printf("Summation(x+y): %f\n",add);
+    printf("Summation(x+y): %g\n",add);
     
     sub=subtraction(x,y);
-    printf("Subtraction(x-y): %f\n",sub);
+    printf("Subtraction(x-y): %g\n",sub);
     
     multi=multiplication(x,y);
-    printf("Multiplication(x*y): %f\n",multi);
+    printf("Multiplication(x*y): %g\n",multi);
     
     divi=division(x,y);
-    printf("Division(x/y): %f\n",divi);
+    printf("Division(x/y): %g\n",divi);
     printf("---------------x--------------");
     return 0;
 }
